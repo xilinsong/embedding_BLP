@@ -17,3 +17,6 @@ We use the EGES model from [Wang et al. (2018)](https://arxiv.org/abs/1803.02349
 2.  Simulate `node2vec` random walks from the graph. This creates sequences of products, whose connections are supported by consumers in our dataset.
 3.  Perform `Skip-Gram` algorithm on the sequences to get the embeddings of the product. The final embedding of a product will be a weighted average of the product itself and the corresponding product attributes.
 4.  Users are represented as the average of their purchased products, so that we can get the similarities between consumers and products. This replaces the non-linear preference part in BLP.
+
+### Progress
+In the notebook, I have finished getting both product and consumer embeddings. Will do demand estimation later.
