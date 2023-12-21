@@ -2,7 +2,7 @@
 An extention on BLP with product embeddings.
 
 ### Motivation
-Traditional BLP method by [Berry, Levinsohn, and Pakes (1995)](https://doi.org/10.2307/2171802) are able to capture consumers' heterogeneous tastes by including the interaction between consumer demographics and product attributes, but the interaction is parametric and it requires detailed information about consumers. 
+Traditional BLP method by [Berry et al. (1995)](https://doi.org/10.2307/2171802) are able to capture consumers' heterogeneous tastes by including the interaction between consumer demographics and product attributes, but the interaction is parametric and it requires detailed information about consumers. 
 
 Inspired by what businesses do for recommendations, we propose using high-dimensional product embeddings to capture heterogeneous tastes. Embeddings can reveal nonparametric relationships among products, and consumers with product purchase history provides the context for identifying product embeddings.
 
